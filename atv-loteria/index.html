@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="secQuina">
+            <header id="headerQuina">
+                <h2 style="color: #260085;">Quina</h2>
+                <p>Serão gerados 5 números (de 1 - 80), excluindo as últimas combinações sorteas para aumentar as suas chances de ganhar!</p>
+            </header>
+            <div id="geradorQuina" class="generator">
+                <div id="geradorQuina" class="generator">
+                    
+                    <label for="generatedQuina">Seu número Gerado:</label><br>
+                    <input type="text" disabled="disabled" id="inputgeneratedQuina" class="inputText" name="generatedQuina">
+                    
+                    <input id="btn_generatedQuina" type="button" onclick="sorteiaNumerosQuina()" value="Gerar números vencedores!">
+                </div>
+            </div>
+            <footer class="footerBets"><p>Para apostar basta <a href="http://www.loterias.caixa.gov.br/wps/portal/loterias/landing/quina">clicar aqui!</a></p></footer>
+            
+        </section>
+
+        <section id="secMegaSena">
+            <header id="headerMega">
+                <h2 style="color: #209869;">Mega-Sena</h2>
+                <p>Serão gerados 6 números (de 1 - 60), excluindo as últimas combinações sorteas para aumentar as suas chances de ganhar!</p>
+            </header>
+            <div id="geradorMega" class="generator">
+                
+                <label for="generatedMega">Seu número Gerado:</label><br>
+                <input type="text" disabled="disabled" class="inputText" id="inputgeneratedMega" name="generatedMega">
+                
+                <input id="btn_generatedMega" type="button" onclick="sorteiaNumerosMega()" value="Gerar números vencedores!">
+            </div>
+            <footer class="footerBets"><p>Para apostar basta <a href="http://www.loterias.caixa.gov.br/wps/portal/loterias/landing/megasena">clicar aqui!</a></p></footer>
+        </section>
+    </main>
+
+
+
+    <script src="quina.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

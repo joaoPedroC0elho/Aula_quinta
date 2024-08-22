@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule seu Índice de Massa Corporal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calcule seu índice de massa corporal</h1>
+
+    <section class="container">
+        <form action="" id="calculo_imc">
+            <label for="nome">Digite seu nome</label>
+            <input type="text" name="nome" id="nome" required class="input-padrao" placeholder="Digite seu nome">
+             
+            <label for="idade">Digite sua idade</label>
+            <input type="number" name="idade" id="idade" required class="input-padrao" placeholder="Digite sua idade">
+
+            <label for="altura">Digite sua altura em metros</label>
+            <input type="text" name="altura" id="altura" required class="input-padrao" placeholder="Digite sua altura">
+
+            <label for="peso">Digite seu peso</label>
+            <input type="number" name="peso" id="peso" required class="input-padrao" placeholder="Digite seu peso">
+
+            <input type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+
+        <div class="resultado">
+            <span class="imc">Seu IMC: <span id="valor-imc"></span></span>
+            <span class="classificacao">Classificação: <span id="valor-classificacao"></span></span>
+            <span class="risco">Riscos: <span id="valor-risco"></span></span>
+        </div>
+    </section>
+
+    <script src="D:/develope/workspace/Aulaquinta/atv-imc/script.js"></script>
+</body>
+</html>

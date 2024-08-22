@@ -1,0 +1,40 @@
+main{
+    width: 100%;
+    margin: 0 auto;
+    background-color:  rgb(240,255,248);
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+form{
+    margin: 40px 0;
+    background: #eeeeee;
+    padding: 2%;
+    
+    width: 40%;
+    border-radius: 5px 10px 5px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+}
+
+
+.resultado{
+    margin: 40px 0;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    position: relative;
+    justify-content: space-between;
+    background: #ececec;
+    border: 1px solid #ffffff;
+    border-radius: 5px 10px 5px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+    color: #000000;
+}
